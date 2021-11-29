@@ -3,12 +3,12 @@ package objects;
 import java.time.LocalTime;
 import java.util.ArrayList;
 
-public class MeanOfTransport {
+public class Vehicle {
     String type;
     ArrayList<Station> route;
     ArrayList<LocalTime> departureTime;
 
-    public MeanOfTransport(String type, ArrayList<Station> route, ArrayList<LocalTime> departureTime) {
+    public Vehicle(String type, ArrayList<Station> route, ArrayList<LocalTime> departureTime) {
         this.type = type;
         this.route = route;
         this.departureTime = departureTime;
