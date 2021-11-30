@@ -1,13 +1,13 @@
-import java.awt.event.ActionEvent;
-public class OvApp
+import javax.swing.*;
+public class   OvApp
 {
-
-
         public static void main(String[] args)
         {
-            HomeGui g = new HomeGui();
-            g.setBounds(400,200,600,400);
-            g.setVisible(true);
+            JFrame frame = new JFrame("Home");
+            frame.setContentPane(new Home().home);
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.pack();
+            frame.setVisible(true);
         }
 }
 
