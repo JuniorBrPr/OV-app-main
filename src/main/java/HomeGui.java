@@ -13,6 +13,13 @@ public class HomeGui extends JFrame {
         setLayout(new FlowLayout());
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
+<<<<<<< HEAD
+=======
+
+       
+
+
+>>>>>>> origin/Developer
         Account = new JButton("Account");
         add(Account, BorderLayout.NORTH);
 
@@ -22,6 +29,10 @@ public class HomeGui extends JFrame {
         Taal = new JButton("Taal");
         add(Taal, BorderLayout.EAST);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/Developer
         Account.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent d) {
                 dispose();
@@ -35,8 +46,14 @@ public class HomeGui extends JFrame {
         Reisplanner.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+<<<<<<< HEAD
                 dispose();
                 Reisplanner g = new Reisplanner();
+=======
+
+                Reisplanner g = new Reisplanner();
+                dispose();
+>>>>>>> origin/Developer
             }
         });
 
@@ -46,8 +63,15 @@ public class HomeGui extends JFrame {
             }
         });
 
+<<<<<<< HEAD
     }
 
+=======
+
+    }
+
+
+>>>>>>> origin/Developer
     public void actionPerformed(ActionEvent e) {
 
     }
