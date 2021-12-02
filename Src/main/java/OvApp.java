@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 
 public class   OvApp
-=======
-import java.awt.event.ActionEvent;
-public class OvApp
->>>>>>> origin/Developer
 {
 
 
